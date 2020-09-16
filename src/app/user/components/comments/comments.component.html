@@ -1,0 +1,9 @@
+<div *ngFor="let comment of commentList">
+    <p>post id: {{comment?.postId}}, id: {{comment?.id}}</p>
+    <p>name: {{comment?.name}}</p>
+    <p>email: {{comment?.email}}</p>
+    {{comment?.body}}
+    <hr>
+</div>
+
+
